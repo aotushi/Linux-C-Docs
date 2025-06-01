@@ -4,6 +4,13 @@ export default defineConfig({
   title: "Linux C编程一站式学习",
   description: "编程学习文档",
   ignoreDeadLinks: true,
+  markdown: {
+    theme: {
+      light: 'github-light',
+      dark: 'github-dark'
+    },
+    lineNumbers: true
+  },
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
