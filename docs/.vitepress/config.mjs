@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Linux C编程一站式学习",
-  description: "Linux与C语言一站式学习文档资料",
+  title: "Linux系统与C语言编程一站式学习 | Linux命令 | C语言入门 | 编程设计 | c语言资料",
+  description: "最简单的Linux系统教程，C语言编程入门与进阶，涵盖Linux命令、系统安装、文件管理、编程设计,助力快速掌握Linux与C语言。",
   ignoreDeadLinks: true,
   head: [
     [
